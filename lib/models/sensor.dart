@@ -19,4 +19,6 @@ class Sensor {
       location: json['location'],
     );
   }
+
+  get status => null;
 }
